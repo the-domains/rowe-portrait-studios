@@ -1,28 +1,40 @@
-name: Rowe Portrait Studios
-favicon: null
-layout_spectrum: 0.35507873352617025
-typography_spectrum: 0.43097498710267246
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ffffff'
-    - '#8b8b8b'
-    - '#000000'
-    - '#d3d3d3'
-    - '#2c2c2c'
-  brandStrength: 0.875
-  lightness: 0.7126424910966307
-  saturation: 0.966115765273571
-  rhythmicContrast: 0.9309159810654819
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.966115765273571
+  lightness: 0.7126424910966307
+  brandStrength: 0.6493018
+  brandColors:
+    - '#FFFFFF'
+    - '#8B8B8B'
+    - '#010101'
+    - '#D0D0D0'
+    - '#656565'
+  rhythmicContrast: 0.9309159810654819
+typography_spectrum: 0.5934479
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: Rowe Portrait Studios
